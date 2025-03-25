@@ -44,7 +44,7 @@ COORD coord;
 void clrscreen()
 {
     system("cls");
-    drawbox(1,0,117,29,0);
+    drawbox(1,0,140,40,0);
 }
 
 //To avoid station not found error
@@ -470,27 +470,27 @@ void screen()
 void UI(){
 
     system("color 0A");
-    drawbox(1,0,117,29,4);
+    drawbox(1,0,140,40,4);
     system("color 0C");
     delay(90);
     system("color 0A");
     delay(90);
-    logo(37,4);
+    logo(47,4);
     system("color 0C");
     delay(90);
-    drawbox(30,3,87,11,4);
-    drawbox(28,2,89,12,4);
+    drawbox(40,3,87,11,4);
+    drawbox(38,2,89,12,4);
     system("color 0C");
     delay(90);
     system("color 0A");
     delay(90);
-    postition_x_y(42,14);
+    postition_x_y(45,14);
     cout<<"WELCOME TO HYDERABAD METRO DESKTOP APP";
     system("color 0C");
     delay(90);
     system("color 0D");
     delay(90);
-    postition_x_y(47,18);
+    postition_x_y(52,18);
     printf("PRESS ENTER TO CONTINUE");
     char ch;
     scanf("%c",&ch);
