@@ -46,20 +46,3 @@ Hyderabad Metro Route Planner is a command-line application that calculates the 
    ```
 
 ---
-
-## Example Usage
-
-```sh
-Enter the starting station: Miyapur
-Enter the destination station: Raidurg
-Shortest route found:
-  Miyapur → JNTU College → KPHB Colony → ... → HITEC City → Raidurg
-Total distance: 27.5 km
-Estimated travel time: 45 minutes
-Fare: ₹60
-Number of stations: 15
-```
-
----
-
-## Contributors
